@@ -1,13 +1,11 @@
-fun getGreeting(): String {
-    return "Hello Kotlin"
-}
+fun getGreeting(): String = "Hello Kotlin"
 
-fun sayHello(): Unit {
+fun sayHello() {
     println(getGreeting())
 }
 
 fun main() {
-    println("Hello Scotty")
+    println("Hello World")
   println(getGreeting())
-    sayHello()
+   sayHello()
 }
