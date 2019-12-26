@@ -1,12 +1,13 @@
 val name: String = "Nate"
-var greeting: String = "hello"
+var greeting: String? = null
+
 fun main() {
-
     println(greeting)
     println(name)
 
-    greeting = "hi"
-    println(greeting)
-    println(name)
+    greeting = null
+    greeting = "Hello"
+
+
 
 }
