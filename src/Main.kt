@@ -15,6 +15,11 @@ fun greetPerson(greeting: String = "Default", name: String = "Default") = printl
 
 
 fun main() {
-//    New Class instanance
-    val person = Person()
+// create an instance of the Class Person
+
+    val person = Person(firstName = "Scott", lastName = "Beeker")
+
+    //No Getter Property access syntax
+    person.lastName
+    person.firstName
 }
